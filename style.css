@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    box-sizing: border-box;
+}
+
+.logoAlura{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+body{
+    margin:0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top:90px;
+    text-transform: lowercase;
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+}
+
+::placeholder{color:#0A3871}
+    .text-area{
+        outline:none;
+    }
+
+.mensagem{
+    background: white;
+    background-image: url(imagens/boneco.png);
+    background-repeat: no-repeat;
+    background-position:center 55%;
+    border: none;
+    border-radius: 24px;
+    color:#0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensagem:focus{
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;   
+}
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor:pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 420px;
+    position:absolute;
+    width: 336px;
+}
+
+.informacao {
+    display: flex; /* Garante que a imagem e o texto estejam alinhados horizontalmente */
+    align-items: center; /* Alinha a imagem e o texto verticalmente */
+    position:relative;
+}
+
+.informacao h6{
+    color: #495057;
+    font-size: 18px;
+    margin-left: 40px;
+    
+}
+.informacao::before {
+    content: "";
+    position: absolute;
+    left: 0px; /* Ajuste conforme necessário */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px; 
+    height: 24px; 
+    background-image: url('/imagens/atencao.png');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o conteúdo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+.rodape{
+    color:#495057;
+    font-size: 16px;
+    margin-left: 80px;
+    margin-bottom: 5px;
+    
+}
