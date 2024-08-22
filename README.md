@@ -11,10 +11,10 @@ O projeto, desenvolvido como um desafio na primeira fase do curso Iniciante em P
 - Descriptografar a mensagem: **Reverte ao texto originalmente digitado.**
 
 ## Ferramentas utilizadas
--**HTML
--**CSS
--**Flex-box
--**JavaScript
+-**HTML**
+-**CSS**
+-**Flex-box**
+-**JavaScript**
 
 ## Melhorias Futuras
 - Desenvolver a responsividade
