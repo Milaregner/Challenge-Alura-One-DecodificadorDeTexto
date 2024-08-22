@@ -7,8 +7,8 @@ O projeto, desenvolvido como um desafio na primeira fase do curso Iniciante em P
 
 ## Funcionalidades
 - **Criptografar texto:** Através de um padrão pré-definido, decodica o texto digitado, substituíndo  vogais por códigos específicos**
-- **Copiar o texto gerado: **Possui um botão para copiar o texto criptografado.**
-- **Descriptografar a mensagem: **Reverte ao texto originalmente digitado.**
+- Copiar o texto gerado: **Possui um botão para copiar o texto criptografado.**
+- Descriptografar a mensagem: **Reverte ao texto originalmente digitado.**
 
 ## Ferramentas utilizadas
 *HTML*
