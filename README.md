@@ -6,7 +6,7 @@ O projeto encontra-se em deploy [aqui](https://challenge-alura-one-decodificador
 O projeto, desenvolvido como um desafio na primeira fase do curso Iniciante em Programação da Alura-One, é uma aplicação web que decodifica mensagens codificadas,com o objetivo de criar mensagens secretas ou proteger as mensagens para que não possam ser lidas por outras pessoas. 
 
 ## Funcionalidades
-- **Criptografar texto:** Através de um padrão pré-definido, decodica o texto digitado, substituíndo  vogais por códigos específicos**
+- **Criptografar texto:** Através de um padrão pré-definido, decodica o texto digitado, substituíndo  vogais por códigos específicos
 - Copiar o texto gerado: **Possui um botão para copiar o texto criptografado.**
 - Descriptografar a mensagem: **Reverte ao texto originalmente digitado.**
 
